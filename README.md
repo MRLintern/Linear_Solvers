@@ -1,7 +1,7 @@
 # Linear-Solvers
 
 ## Introduction
-* Utilising __OOP__ and the __Eigen Library__, this software demonstrates the implementation of the __Jacobi__, __Gauss-Seidel__ and __Successive Over Relaxation (SOR)__ iterative methods for solving __Linear Algebraic Systems__, of the form, __Ax = b__.
+* Utilising __OOP__ with __C++__ and the __Eigen Library__, this software demonstrates the implementation of the __Jacobi__, __Gauss-Seidel__ and __Successive Over Relaxation (SOR)__ iterative methods for solving __Linear Algebraic Systems__, of the form, __Ax = b__.
 * A __serial version__ is developed first, and then a __parallel version__.
 * In the parallel case, __Performance Metrics__, such as __Speed-Up__ and __Efficiency__ will be calculated.
 
