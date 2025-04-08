@@ -23,3 +23,13 @@
 * `Eigen`.
 
 ## Getting and Using the Software
+* `$ git clone git@github.com:MRLintern/Linear_Solvers.git`
+* `$ cd Linear_Solvers`
+* `$ mkdir build -p cd build`
+* `$ cmake ..`
+* `$ cmake --build .`
+* `$ ./laSolver`
+
+## Results
+* TODO.
+* A folder/directory will contain results and graphs of `Time-to-Convergence vs. Number of Iterations`. I see this as a requirement because I will vary the `Relaxation Factor` for the `SOR Algorithm`. At the moment, I have used `1.25` as the relaxation factor.
