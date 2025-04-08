@@ -6,14 +6,15 @@
 * In the parallel case, __Performance Metrics__, such as __Speed-Up__ and __Efficiency__ will be calculated.
 
 ## Iterative Solvers
+* Below gives a brief overview of the algorithms.
 ### Jacobi Method
-
+* TODO.
 ### Gauss-Seidel Method
-
+* TODO.
 ### Successive Over Relaxation (SOR) Method
-
+* TODO.
 ## Parallel Case
-
+* TODO; the parallel case will make use of __OpenMP__.
 ## Requirements
 * __Compiler__: `g++ 13.1.0`.
 * __OS__: `Ubuntu 20.04`.
