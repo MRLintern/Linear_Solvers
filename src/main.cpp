@@ -11,17 +11,17 @@ int main() {
 	// matrix A
 	Eigen::MatrixXd A {
 
-		{4, -1, 0},
-		{-1, 4, -1},
-		{0, -1, 4},
+		{8, -1, 0},
+		{-1, 8, -1},
+		{0, -1, 8},
 
 	};
 
 	// column vector b
-	Eigen::VectorXd b {{15, 10, 10}};
+	Eigen::VectorXd b {{20, 16, 16}};
 
 	// number of iterations to perform
-	int maxIterations {1000};
+	int maxIterations {2000};
 
 	// accepted level of error allowed
 	double tolerance {1e-6};
