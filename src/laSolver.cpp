@@ -130,7 +130,7 @@ Eigen::VectorXd GaussSeidel::solve() {
 // SOR Method
 SOR::SOR(const Eigen::MatrixXd& A, const Eigen::VectorXd& b, int maxIterations, double tolerance, double relaxFactor) 
 
-	: Solver(A, b, maxIterations, m_tolerance), m_relaxFactor(relaxFactor) {}
+	: Solver(A, b, maxIterations, tolerance), m_relaxFactor(relaxFactor) {}
 
 Eigen::VectorXd SOR::solve() {
 
