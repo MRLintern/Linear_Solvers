@@ -15,7 +15,6 @@
 ## Requirements
 * __Compiler__: `g++ 13.1.0`.
 * __OS__: `Ubuntu 20.04`.
-* `OpenMP`.
 * `CMake`.
 * `Eigen`.
 
