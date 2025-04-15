@@ -3,6 +3,11 @@
 ## Introduction
 * Utilising __OOP__ with __C++__ and the __Eigen Library__, this software demonstrates the implementation of the __Jacobi__, __Gauss-Seidel__ and __Successive Over Relaxation (SOR)__ iterative methods for solving __Linear Algebraic Systems__, of the form, __Ax = b__.
 
+## TODO: Software
+* Develop a function which will save the __Convergence Rates__ to a `.csv` file for plotting/visualisation.
+* Develop a `Python script` which will plot __Convergence Rates__.
+
+
 ## Iterative Solvers
 * Below gives a brief overview of the algorithms.
 ### Jacobi Method
@@ -28,3 +33,4 @@
 
 ## Results
 * TODO.
+  
