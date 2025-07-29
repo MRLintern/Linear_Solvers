@@ -14,12 +14,20 @@
 ## Iterative Solvers
 ---
 * Below gives a brief overview of the algorithms.
-### Jacobi Method
-* TODO.
-### Gauss-Seidel Method
-* TODO.
-### Successive Over Relaxation (SOR) Method
-* TODO.
+### The Jacobi Method
+* __Idea__: Updates each component of the solution vector independently using the values from the previous iteration.
+* __Convergence__: Requires that the `coefficient matrix A` is `diagonally dominant` or `symmetric positive definite`.
+
+  
+### The Gauss-Seidel Method
+* __Idea__: Like the `Jacobi Method`, but uses newly updated values as soon as they are available.
+* __Convergence__: Often faster than the `Jacobi Method`. Also needs the `coefficient matrix A` to be `diagonally dominant` or `symmetric positive definite`.
+
+### The Successive Over Relaxation (SOR) Method
+* __Idea__: An extension of the `Gauss-Seidel Method` that uses a ___Relaxation Factor w___ to potentially `accelerate convergence`.
+* __Parameter range__: __0 < w < 2__.
+    * __w = 1__: `Gauss-Seidel Method`.
+    * __w > 1__: `Over-relaxation` (usually speeds up convergence).
 
 ## Requirements
 ---
